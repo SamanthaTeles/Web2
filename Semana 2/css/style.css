@@ -1,0 +1,45 @@
+div.title {
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+
+div.title:hover, a.wrapper:hover + div {
+    display: block;
+    float: center;
+}
+
+img {
+	width:150px;
+	height: 150px;
+}
+
+body {
+	font-family: 'Sacramento', cursive;
+	color: white;
+	background-color: #ff9966;
+	padding-left: 95px;
+	padding-top: 85px;
+}
+
+h2 {
+	font-size: 2em;
+	padding-right: 25px;
+}
+
+p {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.4em;
+	width: 1050px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 6em;
+	text-align: center;
+	padding-right: 150px;
+}
+
+
+
