@@ -1,0 +1,262 @@
+	html, body {
+		height: 100%;
+	}
+	
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: #031f4f;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;
+	}
+	
+	
+	h1, h2, h3 {
+		margin: 0;
+		padding: 0;
+		color: #404040;
+	}
+	
+	p, ol, ul {
+		margin-top: 0;
+	}
+	
+	ol, ul {
+		padding: 0;
+		list-style: none;
+	}
+	
+	p {
+		line-height: 180%;
+	}
+	
+	a {
+		color: #004571;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+
+	.container {
+		margin: 0px auto;
+		width: 1200px; 
+		text-align: center; 
+	}
+	
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button {
+		height: 200px;
+		width: 300px;
+		background: #031f4f;
+		color: white;
+	}
+	
+		
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title {
+		font-size: 2em;
+		height: 100px;
+	}
+	
+	.title1 h2 {
+		padding-top: 25px;
+		font-size: 2em;
+
+	}
+	
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper {
+		background: url(../images/background.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		height: 200px;
+	}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+	
+	#logo h1 {
+		background-color: #031f4f;
+		font-size: 3em;
+		width: 400px;
+		height: 65px;
+		color: #000000;
+		text-decoration: none;
+		margin-top: 25px;
+	}
+	
+	#logo a {
+
+	}
+	
+	#logo span {
+
+	}
+
+	#logo span a {
+
+	}
+	
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	
+	#menu ul {
+
+	}
+	
+	#menu li {
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span {
+
+	}
+	
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page-wrapper {
+		background-color: #F0F0F0;
+
+
+	}
+
+	#page-wrapper p {
+		width: 900px;
+	}
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	#wrapper {
+		background-color: white;
+		height: 800px;
+	}
+
+
+/*********************************************************************************/
+/* Three Columns                                                                 */
+/*********************************************************************************/
+
+	#three-column {
+		width: 900px;
+
+	}
+	
+	#three-column h2 {
+
+	}
+		
+	#three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+		width: 280px;
+		float: left;
+	}
+	
+	#three-column .title {
+
+	}
+	
+	#three-column .title h2 {
+
+	}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+	
+	#portfolio {
+		clear: both;
+	}
+	#portfolio .box {
+		width: 900px;
+		
+	}
+	
+	#portfolio h3 {
+
+	}
+
+	#portfolio .title {
+
+	}
+
+ 	#portfolio .title h2 {
+
+	}
+
+	.column1, .column2, .column3, .column4 {
+		width: 200px;
+		float: left;
+		margin-top: 20px 50px;
+	}
+	
+	.column1, .column2, .column3 {
+
+	}
+	
+	.column4 {
+
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		color: #006489;
+		clear: both;
+	}
+	
+	#copyright p {
+
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact li {
+		display: inline-block;
+
+	}
+	
+	ul.contact li span {
+
+	}
+	
+	ul.contact li a {
+
+	}
+	
+	ul.contact li a:before {
+
+	}	
