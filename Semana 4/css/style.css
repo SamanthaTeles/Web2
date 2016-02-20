@@ -15,7 +15,12 @@ body {
     text-align: center;
     font-style: italic;
     font-family: "Cutive Mono", sans-serif;
-    background: url(../images/bg1.jpg) no-repeat center center fixed; 
+    background: url(../images/bg1.jpg) no-repeat center center fixed;
+    font-size: 55px; 
+}
+
+p{
+    background-color: white;
 }
 
 h4{
@@ -31,4 +36,9 @@ h5{
 	font-size: 24pt;
 	font-weight: normal;
 	font-style: normal;
+}
+
+h2{
+    padding-top: 120px;
+    font-size: 10pt;
 }
