@@ -1,0 +1,36 @@
+h1 {
+	text-align: left;
+	font-size: 8em;
+	color: white;
+	padding-left: 160px;
+	padding-top: -100px;
+	letter-spacing: 10px;
+}
+h2{
+	font-size: 10em;
+	color: #4d3900;
+	position: relative;
+	z-index: -5;
+	margin-top: px;
+}
+
+
+body{
+	
+	background: url(../images/18.jpg) no-repeat center center fixed;
+	font-family: 'Playball', cursive;
+	
+}
+p{
+	width: 400px;
+	color: white;
+	padding-left: 200px;
+	font-size: 1.2em;
+	margin-top: -50px;
+}
+.contenedor{
+	position: relative;
+	z-index: 1;
+	margin-top: -380px;
+}
+

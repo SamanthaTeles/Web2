@@ -1,0 +1,47 @@
+h1 {
+	text-align: center;
+	font-size: 5em;
+	color: #e60073;
+	margin-top: 50px;
+	letter-spacing: 10px;
+	z-index: -5;
+	font-family: 'Crafty Girls', cursive;
+	padding-left: 80px;
+}
+
+h2{
+	font-size: 1em;
+	color: white;
+	position: relative;
+	margin-top: -75px;
+	text-align: center;
+	padding-left: 80px;
+	
+}
+
+
+body{
+	
+	background: url(../images/1100.jpg) no-repeat center center fixed;
+
+	font-family: 'Just Me Again Down Here', cursive;
+	background-color: gray;
+	font-weight: lighter;
+}
+
+p{
+	width: 800px;
+	color: #3366ff;
+	padding-left: 225px;
+	font-size: 1.7em;
+	margin-top: ;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 270px;
+	font-family: 'Crafty Girls', cursive;
+}
+.contenedor{
+	position: relative;
+	z-index: 1;
+	padding-left: 250px;
+}

@@ -1,0 +1,38 @@
+img{
+	height: 200px;
+	width: 200px;
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	font-size: 4em;
+	color: #cca300;
+	padding-bottom: -100px;
+}
+h2{
+	font-family: 'Satisfy', cursive;
+	font-size: 1.8em;
+	text-align: center;
+	color: #ff9999;
+	
+}
+div{
+	display: inline-block;
+	padding-left: 100px;
+}
+
+body{
+	background-color: #f0f0f5;
+	background: url(../images/11.png) no-repeat center center fixed; 
+}
+p{
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+}
+div{
+	padding-left: 625px;
+	padding-top: 90px;
+}
+

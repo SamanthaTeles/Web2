@@ -1,0 +1,40 @@
+h1 {
+	text-align: center;
+	font-size: 7em;
+	color: #80ff80;
+	margin-top: 110px;
+	letter-spacing: 10px;
+	z-index: -5;
+	font-family: 'Permanent Marker', cursive;
+}
+h2{
+	font-size: 1em;
+	color: white;
+	position: relative;
+	margin-top: -75px;
+	text-align: center;
+	
+}
+
+
+
+body{
+	
+	background: url(../images/17.jpg) no-repeat center center fixed;
+	font-family: 'Abel', sans-serif;
+	background-color: gray;
+}
+
+p{
+	width: 800px;
+	color: white;
+	padding-left: 225px;
+	font-size: 1.3em;
+	margin-top: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.contenedor{
+	position: relative;
+	z-index: 1;
+}
