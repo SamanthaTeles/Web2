@@ -4,12 +4,29 @@ body{
 img{
 	padding-left: 300px;
 }
-#control{
-	margin-left: 450px;
-}
+
 p{
 	color: #330a00;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 24px;
 	margin-left: 560px;
+}
+
+button {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 28px;
+  font-family: 'Helvetica';
+  color: black;
+  font-size: 18px;
+  background: #330a00;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  border: none;
+  margin-right: 18px;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+.botones{
+	margin-left: 500px;
 }
