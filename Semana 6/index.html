@@ -1,0 +1,86 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+   <meta charset="utf-8">
+    <title> Scary</title>
+    <link href="css/style.css" rel="stylesheet">
+
+<script type='text/javascript'>
+var imgId = 'fire';
+var imgOnTime = 250;
+var imgOffTime = 750;
+window.onload = function()
+{
+  // check for existence of objects we will use
+  if (document.getElementById) {
+    var ele = document.getElementById(imgId);
+    if (ele && ele.style) {
+      setTimeout('blinkImg()', imgOffTime);
+    }
+  }
+}
+function blinkImg()
+{
+  var v, t, ele = document.getElementById(imgId);
+  if (ele.style.visibility == 'visible') {
+    // hide it, then wait for imgOffTime
+    v = 'hidden';
+    t = imgOffTime;
+  }
+  else {
+    // show it, then wait for imgOnTime
+    v = 'visible';
+    t = imgOnTime;
+  }
+  ele.style.visibility = v;
+  setTimeout('blinkImg()', t);
+}
+</script>
+
+  </head>
+<body>
+
+
+<img id="fire" src="images/1.png"></img>
+<div>
+	<p>Scared?</p>
+	<audio id="audio" src="bg.wav"  autoplay>
+</div>
+	<div id="control">
+		<audio src="audio/scream.wav" controls/>
+
+	</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'audio.mp3');
+        audioElement.setAttribute('autoplay', 'autoplay');
+        //audioElement.load()
+
+        $.get();
+
+        audioElement.addEventListener("load", function() {
+            audioElement.play();
+        }, true);
+
+        $('.play').click(function() {
+            audioElement.play();
+        });
+
+        $('.pause').click(function() {
+            audioElement.pause();
+        });
+    });
+     
+</script>
+
+
+</body>
+
+
+</HTML>
