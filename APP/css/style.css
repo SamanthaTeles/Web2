@@ -1,0 +1,159 @@
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(222, 220, 168, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(22, 31, 44, 1);
+    border-bottom-width: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(113, 176, 148, 1);
+    background-color: rgba(22, 31, 44, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(113, 176, 148, 1);
+    background-color: rgba(222, 220, 168, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(222, 220, 168, 1);
+    background-color: rgba(113, 176, 148, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #71b094;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #71b094;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #71b094;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #161f2c;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: 'Playfair Display', serif;
+}
+
+#wrapper {  
+	margin: auto;
+}
+
+#fontfind{
+	height:800px;
+	background-color: #161F2C;
+	color: #DEDCA8;
+}
+.dl img{
+	height: 100px;
+	width: 140px;
+}
+.dl{
+	padding-top: 50px;
+}
+#fontfind img {
+	text-align: center;
+}
+#collection{
+	height:650px;
+	background-color: #71B094;
+}
+
+.fon img{
+	height: 95%;
+	width: 95%;
+}
+#download p{
+	padding-top: 50px;
+	font-size: 1.7em;
+	color: #DEDCA8;
+	font-family: 'Playfair';
+}
+.contact{
+	padding-top: 450px;
+	font-size: 0.7em;
+	color: #D33F31;
+}
+
+#about{
+	height:800px;
+	background-color: #DEDCA8;
+	font-family: 'Playfair';
+	font-size: 1.5em;
+}
+
+#download {
+	height:700px;
+	background-color: #D33F31;
+	text-align: center;
+}
+
+
+.text{
+	
+	float: left;
+	color: #161F2C;
+	font-family: 'Playfair';
+	font-size: 1.5em;
+	padding-left: 100px;
+	padding-top: 150px;
+	display: inline-block;
+}
+
+
+
+.text img{
+height: 95%;
+width:95%;
+}
+
+#about {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+#team img{
+	height: 80%;
+	width: 80%;
+}
+
+#bla{
+	padding-top: 150px;
+	width: 400px;
+}
+nav {
+	margin-right: 10px;
+	margin-top: 45px;
+	float: center;
+}
+
+i{
+	font-size: 2em;
+}
+section {
+	width: 10px;
+}
+
+
+div {
+  margin: auto;
+}
+ 
+ul {
+  list-style-type: none;
+}
+ 
+ .btn{
+ 	margin-top: 775px;
+ 	margin-left: -590px;
+ 	height: 50px;
+ 	width: 200px;
+ }
