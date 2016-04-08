@@ -1,0 +1,30 @@
+.container{
+	
+	color: #ffff99;
+	font-family: 'Dosis', sans-serif;
+	font-size: 0.95em;
+	text-align: left;
+	padding-left: 400px;
+}
+
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	padding-top: 25px;
+	font-family: 'Teko', sans-serif;
+	font-size: 3em;
+}
+h1{
+	padding-top: 50px;
+	color: #ffff99;
+	font-family: 'Dosis', sans-serif;
+	font-size: 4em;
+	text-align: center;
+}
+button{
+	background-color: red;
+}

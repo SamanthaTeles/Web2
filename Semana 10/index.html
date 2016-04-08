@@ -1,0 +1,113 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Teko:400,700|Dosis' rel='stylesheet' type='text/css'>
+
+<SCRIPT type="text/javascript">
+ function validfn(fnm)
+  {
+  fnlen=fnm.length
+  if (fnlen == 0)
+  {alert("First name is required")
+  document.dataentry.fn.focus()}
+  }
+
+ function validln(lnm)
+  {
+  lnlen=lnm.length
+  if (lnlen == 0)
+  {alert("Last name is required")
+  document.dataentry.ln.focus()}
+  }
+
+ function validaddress(addressm)
+  {
+  addresslen=addressm.length
+  if (addresslen == 0)
+  {alert("Address is required")
+  document.dataentry.address.focus()}
+  }
+
+ function validemail(emailm)
+  {
+  emaillen=emailm.length
+  if (emaillen == 0)
+  {alert("Email is required")
+  document.dataentry.email.focus()}
+  }
+
+ function validtel(tel)
+  {
+   len=tel.length
+   digits="0123456789"
+   if(len != 10)
+    {alert("Telephone number is not the correct length")
+     document.dataentry.tel.focus()}
+
+   for(i=0; i<10; i++)
+   {if (digits.indexOf(tel.charAt(i))<0)
+    {alert("All digits must be numeric")
+    document.dataentry.tel.focus()
+    break}
+      }
+ 
+  }
+
+   function validmssg(mssgm)
+  {
+  mssglen=mssgm.length
+  if (mssglen == 0)
+  {alert("Message is required")
+  document.dataentry.mssg.focus()}
+  }
+
+function submitted()
+{alert("We aren't really gonna read that anyways.")}
+
+
+</SCRIPT>
+</HEAD>
+<BODY>
+  <h1>WE DON'T GIVE A FLYING FUCK</h1>
+  <h2>GOT A COMPLAINT MOFO?</h2>
+<div class="container">
+<FORM NAME="dataentry">
+
+
+ ENTER YOUR JOKE OF A FIRST NAME:<br><br>
+  <INPUT TYPE="text" NAME="fn" 
+    onBlur="validfn(fn.value)">
+  <p>
+
+   ENTER YOUR MOTHERLICKIN' LAST NAME:<br><br>
+  <INPUT TYPE="text" NAME="ln" 
+    onBlur="validln(ln.value)">
+  <p>
+
+  ENTER YOUR GODDAMN ADDRESS:<br><br>
+  <INPUT TYPE="text" NAME="address" 
+    onBlur="validaddress(address.value)">
+  <p>
+
+  ENTER... GUESS WHAT? YOUR FREAKING EMAIL ADDRESS:<br><br>
+  <INPUT TYPE="text" NAME="email" 
+    onBlur="validemail(email.value)">
+  <p>
+
+ ENTER YOUR DUMBASS TELEPHONE NUMBER:<br><br>
+    <INPUT TYPE="text" NAME="tel" SIZE=10 
+      onBlur="validtel(tel.value)"> 
+  <P>
+
+
+  ENTER YOUR GODFORSAKEN MESSAGE:<br>
+<textarea name="mssg" style="width:250px;height:150px;" 
+onBlur="validmssg(mssg.value)"
+></textarea>
+  <p>
+
+ <INPUT TYPE="button"  VALUE="SUBMIT" 
+     onClick="submitted()">
+</div>
+</BODY>
+</HTML>
