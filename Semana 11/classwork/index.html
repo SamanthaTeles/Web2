@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+
+	<link href='https://fonts.googleapis.com/css?family=Pacifico|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<style>
+	body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	select {
+		width: 300px;
+	}
+
+	.start{
+	background: url(https://www.celebritycruises.co.uk/media/hawaii-hero-1600x667_tcm27-77506.jpg) no-repeat center center fixed;
+	height: 500px;
+	width: 1280px;
+	margin-top: -50px;
+	margin-left: -50px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.4em;
+	color: white;
+	}
+
+	h1{
+		padding-top: 50px;
+		font-family: 'Pacifico', cursive;
+		font-size: 6em;
+		color: #cc7a00;
+	}
+	.dates{
+		display: inline-block;
+		
+
+	}
+	p{
+		padding-top: 50px;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 2em;
+	}
+	.noclass{
+		padding-left: 200px;
+	}
+	</style>
+</head>
+<body>
+<div class="start">
+<h1>Embark on a Jorney You'll Never Forget!</h1>
+<h3>We'd like to help you take the first step there.</h3>
+</div>
+
+<div class="notitle">
+<p> Chose Your Leaving and Returning Dates.</p>
+
+<div class="dates">
+<h2 class="demoHeaders">Leaving Date</h2>
+<div id="datepicker"></div>
+</div>
+
+<h2 class="demoHeaders">Returning Date</h2>
+<div id="datepicker2"></div>
+</div>
+</div>
+
+</div>
+
+
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+
+$( "#accordion" ).accordion();
+
+
+
+var availableTags = [
+	"ActionScript",
+	"AppleScript",
+	"Asp",
+	"BASIC",
+	"C",
+	"C++",
+	"Clojure",
+	"COBOL",
+	"ColdFusion",
+	"Erlang",
+	"Fortran",
+	"Groovy",
+	"Haskell",
+	"Java",
+	"JavaScript",
+	"Lisp",
+	"Perl",
+	"PHP",
+	"Python",
+	"Ruby",
+	"Scala",
+	"Scheme"
+];
+$( "#autocomplete" ).autocomplete({
+	source: availableTags
+});
+
+
+
+$( "#button" ).button();
+$( "#radioset" ).buttonset();
+
+
+
+$( "#tabs" ).tabs();
+
+
+
+$( "#dialog" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Ok",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		},
+		{
+			text: "Cancel",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});
+
+// Link to open the dialog
+$( "#dialog-link" ).click(function( event ) {
+	$( "#dialog" ).dialog( "open" );
+	event.preventDefault();
+});
+
+
+
+$( "#datepicker2" ).datepicker({
+	inline: true
+});
+
+
+$( "#datepicker" ).datepicker({
+	inline: true
+});
+
+
+$( "#slider" ).slider({
+	range: true,
+	values: [ 17, 67 ]
+});
+
+
+
+$( "#progressbar" ).progressbar({
+	value: 20
+});
+
+
+
+$( "#spinner" ).spinner();
+
+
+
+$( "#menu" ).menu();
+
+
+
+$( "#tooltip" ).tooltip();
+
+
+
+$( "#selectmenu" ).selectmenu();
+
+
+// Hover states on the static widgets
+$( "#dialog-link, #icons li" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+</script>
+</body>
+</html>
