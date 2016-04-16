@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif|Copse|Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+     <title>Positive Page</title>
+  </head>
+  <body>
+
+
+<img src="smiley.png"/>
+    <h1>The Positive Page</h1>
+
+
+
+
+    <SCRIPT type="text/javascript">
+  var0="When you are joyful, when you say yes to life and have fun and <br>project positivity all around you, you become a sun in the center of <br> every constellation, and people want to be near you. <br>- Shannon L. Alder"
+  var1="Keep your face always toward the sunshine - and shadows will fall behind you.<br> - Walt Whitman"
+  var2="Our beliefs about what we are and what we can be precisely determine what we can be. <br>- Anthony Robbins"
+  var3="Believing in negative thoughts is the single greatest obstruction to success.  <br>- Charles F. Glassman" 
+  var4="I do not believe in taking the right decision, I take a decision and make it right. <br>- Muhammad Ali Jinnah"
+  var5="If you look the right way, you can see that the whole world is a garden.<br> - Frances Hodgson Burnett"
+  var6="Every day is a good day and every moment is an auspicious moment.<br>- Amit Ray"
+  var7="Positive and negative attitudes are both contagious but only one is helpful. <br>- Ken Poirot"
+  var8="Reject every negativity with positive response.<br>- Lailah Gifty Akita"
+  var9="Chose wisely <br> Birth wasn't your choice, <br> and neither shall death be. <br> But the way you live your life is your choice, buddy.<br> - Maddy Malhotra" 
+  var10="You were never created to live depressed, defeated, guilty, condemned, ashamed or unworthy. <br>We were created to be victorious. <br>- Joel Osteen"
+
+ 
+
+  now=new Date()
+  num=(now.getSeconds() )%11
+
+  if (num == 0)
+    {cliche=var0}
+  if (num == 1)
+    {cliche=var1}
+  if (num == 2)
+     {cliche=var2}
+   if (num == 3)
+     {cliche=var3}
+   if (num == 4)
+     {cliche=var4}
+   if (num == 5)
+     {cliche=var5}
+   if (num == 6)
+     {cliche=var6}
+   if (num == 7)
+     {cliche=var7}
+   if (num == 8)
+     {cliche=var8}
+   if (num == 9)
+     {cliche=var9}
+   if (num == 10)
+     {cliche=var10}
+
+
+
+  document.write(cliche)
+
+
+</SCRIPT>
+      
+      
+      <br><br>
+      <p>Let this page serve as a daily reflection on things that have made you happy.
+     </p>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <textarea class="form-control status-box" rows="2" placeholder=" What has made you smile today?"></textarea>
+        </div>
+      </form>
+
+
+
+
+
+      <div class="button-group pull-right">
+        <p class="counter">140</p>
+        <a href="#" class="btn btn-primary">:)</a>
+      </div>
+    
+      <ul class="posts">
+      </ul>
+<div class="video">
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/t69L1kSkMrw" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    
+  </body>
+</html>
